@@ -1,0 +1,119 @@
+.header {
+    height: 100vh;
+    margin: 0 7%;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    color: var(--white-color);
+}
+
+.container_sub_heading {
+    font-size: var(--page-sub-heading-level-2);
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.container_heading {
+    font-size: var(--home-heading);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.btn_grad_contact{
+    margin: 0 1% 0 0;
+}
+
+.btn-icon {
+    font-size: var(--btn);
+    padding-top: 2px;
+}
+
+/* left side social media icons */
+.social_media_icons {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 2.5%;
+    bottom: 0;
+}
+
+.icon {
+    font-size: var(--page-heading);
+    color: var(--btn-color);
+    margin-bottom: 35%;
+    cursor: pointer;
+}
+
+.upper_line {
+    border-left: 3px solid var(--btn-color);
+    height: 5vh;
+    position: relative;
+    left: 50%;
+    margin-bottom: 35%;
+}
+
+.lower_line {
+    border-left: 3px solid var(--btn-color);
+    height: 10vh;
+    position: relative;
+    left: 50%;
+}
+
+/* hover effects */
+@media (hover: hover){
+    .icon:hover {
+        position: relative;
+        top: -0.3rem;
+    }
+}
+
+/* screen queries */
+@media screen and (min-width: 1000px) and (orientation: portrait){
+    .header_container {
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 1000px) and (orientation:portrait){
+    .header_container {
+        align-items: center;
+        width: 100%;
+    }
+    .social_media_icons {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 1000px){
+    .header_container {
+        align-items: center;
+        width: 100%;
+    }
+    .social_media_icons {
+        display: none;
+    }
+    .header {
+        margin: 0 3%;
+    }
+}
+
+@media screen and (max-width: 599px){
+    .header_container {
+        width: 100%;
+    }
+    .social_media_icons{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px), (orientation: portrait) {
+    .header {
+        margin: 0 3%;
+    }
+}
