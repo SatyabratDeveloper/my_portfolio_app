@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my_portfolio_app/static/css/main.00d17a7f.css",
-    "main.js": "/my_portfolio_app/static/js/main.4bb17aab.js",
-    "static/media/bg.png": "/my_portfolio_app/static/media/bg.74ddd09b84d6dfc97399.png",
-    "static/media/Satyabrat_Jha_Resume.pdf": "/my_portfolio_app/static/media/Satyabrat_Jha_Resume.2b6f3539a91d9e99d6cb.pdf",
-    "static/media/world_clock_1.png": "/my_portfolio_app/static/media/world_clock_1.3772cc875404ec8a9312.png",
-    "static/media/portfolio.png": "/my_portfolio_app/static/media/portfolio.fec608b1f2fcbeca63f0.png",
-    "static/media/satyabrat_image.png": "/my_portfolio_app/static/media/satyabrat_image.d498e423b6c32713757a.png",
-    "static/media/drum_kit.png": "/my_portfolio_app/static/media/drum_kit.7730ffad328b0da1ed27.png",
-    "static/media/atom.png": "/my_portfolio_app/static/media/atom.1a01eb300a3de67c285d.png",
-    "static/media/newsletter_signup.png": "/my_portfolio_app/static/media/newsletter_signup.2c8480543bd7d49cae9f.png",
-    "static/media/chrome.png": "/my_portfolio_app/static/media/chrome.e94336bd4225f6877120.png",
-    "static/media/react.png": "/my_portfolio_app/static/media/react.3e0fdc91b6e8ca4e4384.png",
-    "static/media/calculator.png": "/my_portfolio_app/static/media/calculator.ad21ef8b46f0be471ed6.png",
-    "static/media/firefox.png": "/my_portfolio_app/static/media/firefox.2759b055e89032d35c56.png",
-    "static/media/bootstrap.png": "/my_portfolio_app/static/media/bootstrap.a5c9ddd12525f769d1cf.png",
-    "index.html": "/my_portfolio_app/index.html",
-    "main.00d17a7f.css.map": "/my_portfolio_app/static/css/main.00d17a7f.css.map",
-    "main.4bb17aab.js.map": "/my_portfolio_app/static/js/main.4bb17aab.js.map"
+    "main.css": "/static/css/main.e3ce41a4.css",
+    "main.js": "/static/js/main.8a9f835a.js",
+    "static/media/bg.png": "/static/media/bg.74ddd09b84d6dfc97399.png",
+    "static/media/Satyabrat_Jha_Resume.pdf": "/static/media/Satyabrat_Jha_Resume.2b6f3539a91d9e99d6cb.pdf",
+    "static/media/world_clock_1.png": "/static/media/world_clock_1.3772cc875404ec8a9312.png",
+    "static/media/portfolio.png": "/static/media/portfolio.fec608b1f2fcbeca63f0.png",
+    "static/media/satyabrat_image.png": "/static/media/satyabrat_image.d498e423b6c32713757a.png",
+    "static/media/drum_kit.png": "/static/media/drum_kit.7730ffad328b0da1ed27.png",
+    "static/media/atom.png": "/static/media/atom.1a01eb300a3de67c285d.png",
+    "static/media/newsletter_signup.png": "/static/media/newsletter_signup.2c8480543bd7d49cae9f.png",
+    "static/media/chrome.png": "/static/media/chrome.e94336bd4225f6877120.png",
+    "static/media/react.png": "/static/media/react.3e0fdc91b6e8ca4e4384.png",
+    "static/media/calculator.png": "/static/media/calculator.ad21ef8b46f0be471ed6.png",
+    "static/media/firefox.png": "/static/media/firefox.2759b055e89032d35c56.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.a5c9ddd12525f769d1cf.png",
+    "index.html": "/index.html",
+    "main.e3ce41a4.css.map": "/static/css/main.e3ce41a4.css.map",
+    "main.8a9f835a.js.map": "/static/js/main.8a9f835a.js.map"
   },
   "entrypoints": [
-    "static/css/main.00d17a7f.css",
-    "static/js/main.4bb17aab.js"
+    "static/css/main.e3ce41a4.css",
+    "static/js/main.8a9f835a.js"
   ]
 }
