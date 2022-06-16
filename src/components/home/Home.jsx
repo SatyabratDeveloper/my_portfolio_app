@@ -38,7 +38,7 @@ function Home() {
                         transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.5 }}
                         className='btn_container'>
                         <a href='#contact_page' className='btn_grad_contact'><button href='#contact_page' className='btn_grad'><FaEnvelope className='btn-icon' />&nbsp; Contact Me</button></a>
-                        <a href={Satyabrat_CV} rel="noopener noreferrer" target='_blank'><button className='btn_grad' label='resume'><ImDownload className='btn-icon' />&nbsp; Download CV</button></a>
+                        <a href={Satyabrat_CV} rel="noopener noreferrer" target='_blank'><button className='btn_grad' label='resume'><ImDownload className='btn-icon' />&nbsp; Resume</button></a>
                     </motion.div>
                 </div>
             </div>
