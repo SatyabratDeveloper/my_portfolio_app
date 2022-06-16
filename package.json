@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio-cv",
-  "homepage": "http://SatyabratDeveloper.github.io/my_portfolio_app",
+  "homepage": "http://satyabratjha.com",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
