@@ -45,13 +45,13 @@
 .icon {
     font-size: var(--page-heading);
     color: var(--btn-color);
-    margin-bottom: 35%;
+    margin-bottom: 25%;
     cursor: pointer;
 }
 
 .upper_line {
     border-left: 3px solid var(--btn-color);
-    height: 5vh;
+    height: 3vh;
     position: relative;
     left: 50%;
     margin-bottom: 35%;
@@ -59,7 +59,7 @@
 
 .lower_line {
     border-left: 3px solid var(--btn-color);
-    height: 10vh;
+    height: 6vh;
     position: relative;
     left: 50%;
 }

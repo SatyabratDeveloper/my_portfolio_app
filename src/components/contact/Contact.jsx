@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser'
 import './contact.css';
 import { motion } from "framer-motion"
 import { AiFillPhone } from 'react-icons/ai';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import { VscGithub } from 'react-icons/vsc';
 import { ImLocation } from 'react-icons/im';
 
@@ -54,7 +54,7 @@ function Contact() {
     return (
         <div className='contact'>
             <h1 className='heading white_color'>Contact</h1>
-            <h1 className='container_sub_heading'>Learn more about me</h1>
+            <h1 className='container_sub_heading margin-bottom'>Learn more about me</h1>
             <div className='contact_container'>
                 <motion.div
                     variants={boxVariantsRight}
@@ -82,12 +82,16 @@ function Contact() {
                         <a href='mailto:'><span className='contact_info_content'>satyabrat.developer@gmail.com</span></a>
                     </div>
                     <div className='contact_info_container'>
-                        <span className='contact_info_heading'><AiFillPhone className='contact_icons' /> Phone No</span>
-                        <span className='contact_info_content'>+91 9205076637</span>
-                    </div>
-                    <div className='contact_info_container'>
                         <span className='contact_info_heading'><VscGithub className='contact_icons' /> GitHub</span>
                         <a href='https://github.com/SatyabratDeveloper'><span className='contact_info_content'>SatyabratDeveloper</span></a>
+                    </div>
+                    <div className='contact_info_container'>
+                        <span className='contact_info_heading'><FaLinkedin className='contact_icons' /> LinkedIn</span>
+                        <a href='http://www.linkedin.com/in/satyabratjha'><span className='contact_info_content'>www.linkedin.com/in/satyabratjha</span></a>
+                    </div>
+                    <div className='contact_info_container'>
+                        <span className='contact_info_heading'><AiFillPhone className='contact_icons' /> Phone No</span>
+                        <span className='contact_info_content'>+91 9205076637</span>
                     </div>
                     <div className='contact_info_container'>
                         <span className='contact_info_heading'><ImLocation className='contact_icons' /> Address</span>

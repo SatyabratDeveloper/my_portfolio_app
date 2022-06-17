@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import { motion } from "framer-motion"
 import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import { ImDownload } from 'react-icons/im';
 import Satyabrat_CV from '../../assets/Satyabrat_Jha_Resume.pdf';
 
@@ -50,6 +50,7 @@ function Home() {
                 className='social_media_icons'>
                 <div className='upper_line'></div>
                 <a href='https://github.com/SatyabratDeveloper'><AiFillGithub className='icon' /></a>
+                <a href='http://www.linkedin.com/in/satyabratjha'><FaLinkedin className='icon' /></a>
                 <a href={Satyabrat_CV} rel="noopener noreferrer" target='_blank'><ImDownload className='icon' /></a>
                 <a href="#contact_page" alt="Contact"><AiOutlineMail className='icon' /></a>
                 <div className='lower_line'></div>
