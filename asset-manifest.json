@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b8e3150.css",
-    "main.js": "/static/js/main.8e96d61f.js",
+    "main.css": "/static/css/main.12212026.css",
+    "main.js": "/static/js/main.31bfd72a.js",
     "static/media/bg.png": "/static/media/bg.74ddd09b84d6dfc97399.png",
-    "static/media/Satyabrat_Jha_Resume.pdf": "/static/media/Satyabrat_Jha_Resume.b117ff49c38dd0d13011.pdf",
+    "static/media/Satyabrat_Jha_Resume.pdf": "/static/media/Satyabrat_Jha_Resume.bf7247665fe51318d64a.pdf",
     "static/media/world_clock_1.png": "/static/media/world_clock_1.3772cc875404ec8a9312.png",
     "static/media/portfolio.png": "/static/media/portfolio.fec608b1f2fcbeca63f0.png",
     "static/media/satyabrat_image.png": "/static/media/satyabrat_image.d498e423b6c32713757a.png",
+    "static/media/tinderClone.jpg": "/static/media/tinderClone.bfd5abe2ae7582f1649d.jpg",
     "static/media/drum_kit.png": "/static/media/drum_kit.7730ffad328b0da1ed27.png",
     "static/media/atom.png": "/static/media/atom.1a01eb300a3de67c285d.png",
     "static/media/newsletter_signup.png": "/static/media/newsletter_signup.2c8480543bd7d49cae9f.png",
@@ -16,11 +17,11 @@
     "static/media/firefox.png": "/static/media/firefox.2759b055e89032d35c56.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.a5c9ddd12525f769d1cf.png",
     "index.html": "/index.html",
-    "main.7b8e3150.css.map": "/static/css/main.7b8e3150.css.map",
-    "main.8e96d61f.js.map": "/static/js/main.8e96d61f.js.map"
+    "main.12212026.css.map": "/static/css/main.12212026.css.map",
+    "main.31bfd72a.js.map": "/static/js/main.31bfd72a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b8e3150.css",
-    "static/js/main.8e96d61f.js"
+    "static/css/main.12212026.css",
+    "static/js/main.31bfd72a.js"
   ]
 }
