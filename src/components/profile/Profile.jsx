@@ -19,7 +19,7 @@ function Profile() {
                 y: [30, 0], opacity: [0, 1]
             },
             transition: {
-                duration: 0.7, ease: 'easeInOut'
+                duration: 0.3, ease: 'easeInOut'
             }
         }
     }
@@ -44,6 +44,8 @@ function Profile() {
                         <img src={profile_img} className='profile_img' alt='profile_img' />
                         <spam className='profile_heading'>My name is <span className='profile_heading gradient_text'>Satyabrat Jha</span></spam>
                         <spam className='profile_sub_heading'>I'm a <spam className='profile_sub_heading gradient_text'>Full Stack Web Developer</spam></spam>
+                        <spam className='text_content'>I'm from New Delhi, India. I have completed my Bachelor's degree in Computer Application from IMS, Noida(CCS University).</spam>
+                        <spam className='text_content'>I have completed certifications on Udemy (The Complete Web Development Bootcamp) and freeCodeCamp.org (JavaScript Algorithms and Data Structures).</spam>
                         <spam className='text_content'>I'm passionate about all things related to JavaScript and I love to design.</spam>
                         <spam className='text_content'>I work hard, I care about writing clean code, and I genuinely love to learn.</spam>
                         <spam className='text_content'>I'm currently looking for the right opportunity to work in an environment that will help me progress into a full-stack role.</spam>
@@ -63,7 +65,7 @@ function Profile() {
                             <div className='timeline_point'></div>
                         </div>
                         <div className='timeline_component timeline_component_bg'>
-                            <h2 className='timeline_title'>Bachelors in Computer Application</h2>
+                            <h2 className='timeline_title'>BCA (Bachelor's in Computer Application)</h2>
                             <p className='timeline_paragraph'>Institute of Management Studies, Noida</p>
                             <p className='timeline_paragraph'>Chaudhary Charan Singh University, Meerut</p>
                         </div>
@@ -101,15 +103,25 @@ function Profile() {
                     transition="transition"
                     className={toggle === 3 ? 'active_content' : 'content'}>
                     <div className='timeline'>
+                    <div className='timeline_component timeline_component_bg left'>
+                            <h2 className='timeline_title'>freeCodeCamp.org (JavaScript Algorithms and Data Structures)</h2>
+                            <p className='timeline_paragraph'>JavaScript, Data Structures, Algorithms, OOP, Functional Programming</p>
+                        </div>
+                        <div className='timeline_middle'>
+                            <div className='timeline_point'></div>
+                        </div>
                         <div className='timeline_component'>
-                            <div className='timeline_date timeline_date_right'>2022</div>
+                            <div className='timeline_date'>(Aug - Sep) 2022</div>
+                        </div>
+                        <div className='timeline_component'>
+                            <div className='timeline_date timeline_date_right'>(Jan - Jun) 2022</div>
                         </div>
                         <div className='timeline_middle'>
                             <div className='timeline_point'></div>
                         </div>
                         <div className='timeline_component timeline_component_bg'>
                             <h2 className='timeline_title'>Udemy (The Complete Web Development Bootcamp)</h2>
-                            <p className='timeline_paragraph'>ReactJS, HTML, CSS, JavaScript, JQuery, Bootstrap, NodeJS, MongoDB</p>
+                            <p className='timeline_paragraph'>React JS, Node JS, Express, MongoDB, HTML, CSS, JavaScript, jQuery, Bootstrap</p>
                         </div>
                         <div className='timeline_component timeline_component_bg left'>
                             <h2 className='timeline_title'>Industrial traning (Apex TG India Pvt.Ltd.)</h2>
@@ -122,7 +134,7 @@ function Profile() {
                             <div className='timeline_point timeline_point_bottom'></div>
                         </div>
                         <div className='timeline_component'>
-                            <div className='timeline_date'>(14 July - 14 Aug) 2014</div>
+                            <div className='timeline_date'>(July - Aug) 2014</div>
                         </div>
                     </div>
                 </motion.div>

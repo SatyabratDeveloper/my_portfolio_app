@@ -38,7 +38,7 @@ function Contact() {
                 y: [-100, 0], opacity: [0, 1]
             },
             transition: {
-                duration: 0.7, ease: 'easeInOut'
+                duration: 0.3, ease: 'easeInOut'
             }
         }
         boxVariantsLeft = {
@@ -46,7 +46,7 @@ function Contact() {
                 y: [100, 0], opacity: [0, 1]
             },
             transition: {
-                duration: 0.7, ease: 'easeInOut'
+                duration: 0.3, ease: 'easeInOut'
             }
         }
     }

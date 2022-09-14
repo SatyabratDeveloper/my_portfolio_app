@@ -38,7 +38,7 @@ function Skills() {
                 y: [30, 0], opacity: [0, 1]
             },
             transition: {
-                duration: 0.7, ease: 'easeInOut'
+                duration: 0.3, ease: 'easeInOut'
             }
         }
     }

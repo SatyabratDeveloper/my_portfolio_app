@@ -63,7 +63,7 @@ function Navbar() {
         transition={{ duration: 0.5, ease: 'easeInOut', delay: 1.5 }}
         className={navbar ? 'navbar active' : 'navbar'}>
             <div className='logo'>
-                <h1>Satyabrat Jha</h1>
+                <h1><spam className='logoStyle'>&lt;</spam> Satyabrat_Jha <spam className='logoStyle'>/&gt;</spam></h1>
             </div>
             <div className='menu'>
             <Menu />

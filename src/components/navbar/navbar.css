@@ -6,12 +6,8 @@
     justify-content: space-between;
     height: 7vh;
     padding: 0 7%;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     color: var(--white-color);
-}
-
-.logo {
-    text-transform: uppercase;
 }
 
 .logo h1 {
@@ -19,6 +15,13 @@
     font-weight: 400;
     font-family: 'Russo One', sans-serif;
     letter-spacing: 2px;
+}
+
+.logoStyle {
+    font-size: var(--logo);
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+    color: var(--btn-color);
 }
 
 .menu {
@@ -48,7 +51,7 @@
     background-size: 0% 3px;
     background-repeat: no-repeat;
     background-position: left bottom;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     padding: 0 3px;
     width: fit-content;
 }
@@ -76,7 +79,7 @@
 
 .navbar_menu_container {
     background-image: var(--gradient-btn-white);
-    transition: 0.7s;
+    transition: 0.3s;
     background-size: 200% auto;
     display: flex;
     align-items: center;

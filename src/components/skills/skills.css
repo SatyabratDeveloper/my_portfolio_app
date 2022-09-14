@@ -49,7 +49,7 @@
 /* hover effects */
 @media (hover: hover){
     .skill_section_container:hover{
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
